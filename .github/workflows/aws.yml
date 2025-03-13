@@ -2,11 +2,11 @@ name: Build and Push Docker Image to ECR
 
 on:
   push:
-    branches: ["dev"]
+    branches: ["main"]
 
 env:
   AWS_REGION: eu-north-1
-  ECR_REPOSITORY: dev-sumer
+  ECR_REPOSITORY: dev
 
 permissions:
   contents: read
